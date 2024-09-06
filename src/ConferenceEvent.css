@@ -1,0 +1,359 @@
+/* Venue selection styles */
+.venue_container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: -180px;
+    font-size: 24px;
+  }
+  
+  .venue_selection,.addons_selection , .meal_selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90vw;
+    margin-left: 250px;
+  }
+  
+  .venue_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    width: 300px;
+  }
+  .text h1{
+    width: 900px;
+    font-size: 40px;
+    background-color: #133b6a;
+    color: white;
+    width:990px;
+    height: 70px;
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .venue_main .text {
+    font-size: 30px;
+    color: #333;
+  }
+  .quantity-value {
+    margin: 0 10px;
+  }
+  .main_container{
+    display: flex;    
+  }
+  .items-information {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 100px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .meal_item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .total_cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 190px;
+  }
+  
+  .av_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #000;
+  }
+
+  .input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+  }
+  .input-container input {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 13px;
+  }
+  .meal_selection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .meal_selection label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .meal_selection input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .meal_item .meal_cost {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    width: 50px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .venue_main .img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .display_box1 {
+    margin-top: 20px;
+    overflow-y: auto;
+    height: 300px;
+    scrollbar-width: thin;
+    scrollbar-color: #b7b4b4 transparent; 
+  }
+  
+  .display_box1::-webkit-scrollbar {
+    width: 8px; /* For Chrome, Safari, and Opera */
+  
+  }
+  
+  .display_box1::-webkit-scrollbar-track {
+    background-color: transparent; /* For Chrome, Safari, and Opera */
+    
+  }
+  
+  .display_box1::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* For Chrome, Safari, and Opera */
+  }
+  
+  .display_box1 {
+    padding-left: 20px;
+  }
+  .addons_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .btn-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5291D9;
+    color: black;
+    border: none;
+    width: 10px;
+    height: 30px;
+     border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-warning {
+    background-color: #52D7D9;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    color: black;
+    width: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-container .input_box5{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+  }
+  
+  .items_view{
+    font-size: 20px;
+  }
+  .table_item_data {
+    width: 70vw;
+    border-collapse: collapse;
+    margin-left: -6px;
+    
+  }
+  
+  .table_item_data th,
+  .table_item_data td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 23px;
+    
+  }
+  
+  .table_item_data th {
+    background-color: #f2f2f2;
+  }
+  
+  .table_item_data tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table_item_data tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .table_item_data tbody tr:first-child:hover {
+    background-color: transparent;
+  }
+  navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color:#133b6a;
+    color: white;
+    width: 100vw;
+  }
+  
+  .company_logo {
+    font-size: 30px;
+    color: #EFC16B;
+    font-weight: 700;
+  }
+  .nav_links{
+    display: flex;
+    gap: 170px;
+  }
+  .left_navbar{
+    width: 60vw;
+    display: flex;
+    gap: 180px;
+  
+  }
+  .nav_links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+  }
+  
+  .nav_links a:hover {
+    color: #ff9900;
+  }
+  .button_container{
+    /* background-color: red; */
+    width:200px ;
+    display: flex;
+    gap: 20px;
+  }
+  .details_button {
+    padding: 8px 16px;
+    background-color: #EFC16B;
+    color: black;
+    /* border: 1px solid white; */
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* background-color: transparent; */
+  }
+  
+  
+  .navbar_event_conference{
+    position: fixed;
+    top: 1px;
+    z-index: 99;
+  }
+  .btn-disabled {
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
+    cursor: not-allowed; /* Change cursor to indicate that the button is not clickable */
+  }
+  @media (max-width: 700px) {
+    navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+        background-color: #133b6a;
+        color: white;
+        width: 100vw;
+    }
+    .nav_links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left_navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+
+}
